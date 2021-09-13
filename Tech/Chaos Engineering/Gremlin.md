@@ -1,5 +1,8 @@
 ---
 tags: chaos-gameday, chaos-engineering, gremlin
+layout: post 
+title: Gremlin
+categories: Chaos Engineering
 ---
 
 # Gremlin
@@ -18,11 +21,11 @@ Connection Timeout, Read Timeout, 또는 이전 장애 상황에 따라서 지�
 
 ## Application Layer
 
-- [ ] Latency 이 외에  Application Attack 을 통한 5xx 실험 Poc
+- Latency 이 외에  Application Attack 을 통한 5xx 실험 Poc
 
 ## Operations
 
-- [ ] kakaowork webhook 을 이용해서 사용현황을 실시간으로 파악
+- kakaowork webhook 을 이용해서 사용현황을 실시간으로 파악
 
 # References
 

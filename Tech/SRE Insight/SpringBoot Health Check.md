@@ -1,5 +1,8 @@
 ---
 tags: springboot,actuator,healthcheck,incident
+layout: post 
+title: About SpringBoot Health Check
+categories: SRE Insight
 ---
 
 **Table of Contents**
@@ -81,13 +84,6 @@ health group 을 이용하여 원하는 k8s 용으로 liveness 와 readiness 를
         }
       }
     }
-    ---
-    # jenkins.yml 에는 livenss, readiness 가 구분되어 있지는 않습니다.
-    # 필요 시에 readiness 를 지정할 때에는 devops 팀에 문의
-    health_check:
-        type: http
-        path: /actuator/health/liveness
-
 ```
 
 ## SpringBoot 2.3 이후 Probe 이용
@@ -137,4 +133,3 @@ SpringBootApp 내에서 livenessState, readinessState 를 이벤트를 통해 �
 # References
 
 - [Auto-configured HealthIndicators 관련 메뉴얼 바로 가기](https://docs.spring.io/spring-boot/docs/2.3.0.RELEASE/reference/html/production-ready-features.html#production-ready-health-indicators)
-- [Auto-configured ReactiveHealthIndicators 관련 메뉴얼 바로 가기](http://auto-configured%20reactivehealthindicators/)

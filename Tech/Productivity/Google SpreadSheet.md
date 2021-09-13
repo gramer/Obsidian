@@ -2,6 +2,26 @@
 tags: google-drive,app-sheet
 ---
 
+**Table of Contents**
+
+- [[#Practice|Practice]]
+	- [[#여러 시트를 하나의 시트로 병합하는 방법|여러 시트를 하나의 시트로 병합하는 방법]]
+- [[#부가기능|부가기능]]
+	- [[#AppSheet|AppSheet]]
+		- [[#Tip|Tip]]
+- [[#References|References]]
+
+
+# Practice
+
+## 여러 시트를 하나의 시트로 병합하는 방법
+
+### Combine Sheets
+
+- 헤더가 동일하면 손쉽게 sheet 를 병합할 수 있다.
+- 병합 후에 자동으로 업데이트는 되지 않는다.
+
+
 # 부가기능
 
 ## AppSheet
@@ -17,6 +37,8 @@ Google SpreadSheet 와 연결하여 mobile app 을 빠르게 만들 수 있는 �
 - Virtual Column 을 추가할 수 있다.
 - 규칙에 따라서 UX 를 조정할 수 있다.
 
-### References
+
+# References
 
 - [AppSheet Templates](https://www.appsheet.com/templates)
+- [How to merge several Google sheets into one without copy-pasting](https://www.ablebits.com/office-addins-blog/2019/08/22/google-sheets-ways-to-combine-multiple-sheets/)

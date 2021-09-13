@@ -1,11 +1,19 @@
 # Created by .ignore support plugin (hsz.mobi)
-## Ignore idea
+## Idea
 .idea
 
-## Ignore personal and company notes
+## Personal and company notes
 Kakaopay
 Personal
 
-## Ignore obsidian configuration
+## Obsidian configuration
 .obsidian
+
+# Jelly
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
+
 
